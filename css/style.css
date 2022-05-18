@@ -137,11 +137,11 @@ sup {
 }
 
 a {
-  color: #717070;
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  text-shadow: #a4191992;
+  text-shadow: #b1470592;
 }
 
 a:hover {
@@ -195,11 +195,13 @@ table {
 }
 
 caption {
-  padding-top: 0.75rem;
+  padding-top: 3rem;
   padding-bottom: 0.75rem;
   color: #6c757d;
-  text-align: left;
+  text-align: center;
   caption-side: bottom;
+  margin-top: 1rem;
+  font-size: 12px;
 }
 
 th {
@@ -1055,4 +1057,17 @@ header+header {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
+}
+
+/* PHTOO STACK  */
+#stackPhoto {
+    filter: grayscale(1);
+    transition: 0.2s ease-in-out;
+    max-height: 50%;
+}
+
+#stackPhoto:hover {
+  filter: grayscale(0);
+  transition: 0.2s ease-in-out;
+  max-height: 52%;
 }

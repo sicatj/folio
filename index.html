@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-  <link rel="stylesheet" type="text/css" href="/folio/css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>JSicat Porfolio</title>
 </head>
 
@@ -26,8 +26,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-              <a class="nav-item active" href="/index.html">Hi, this is
-          </a>
+              <a class="nav-item active" href="/index.html"><strong>Jane Sicat</strong> </a>
         
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -37,20 +36,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item active">
-                <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                <!-- <a class="nav-link" href="/index.html">Home 
+                  <span class="sr-only">(current)</span>
+                </a> -->
               </li>
             </ul>
           </div>
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-record-circle"></i>   Projects</a>
+                <a class="nav-link" href="#nav-projects"><i class="bi bi-record-circle"></i> Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-record-circle"></i>  About Me</a>
+                <a class="nav-link" href="#nav-summary"><i class="bi bi-record-circle"></i> Journey</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal"><i class="bi bi-record-circle"></i>  Contact</a>
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal"><i class="bi bi-record-circle"></i> Contact</a>
               </li>
             </ul>
           </div>
@@ -83,7 +84,7 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-md- image-wrapper" id="adjust-hero-img">
-          <img class="w-100 header-ml" src="images/journal ani.png" alt="">
+          <img class="w-100 header-ml" src="images/header-portrait.png" alt="">
           <div class="typewriter">
             <h3>Coffee & code with me? <i class="bi bi-mailbox" data-bs-toggle="modal" data-bs-target="#contactModal"></i></h3>
           </div>
@@ -92,7 +93,7 @@
     </div>
   </section>
 
-<!-- Modal -->
+<!-- Contact Modal -->
 <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -104,14 +105,16 @@
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZ0UjBVD4yoLciASxiDPIbRRBoohF2PuuLCdneIMAST0ZTBg/viewform?embedded=true" width="100%" height="677" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <span class="emphasis" data-bs-dismiss="modal">THANK YOU</span>
       </div>
     </div>
   </div>
 </div>
-<!-- end of modal -->
- <!-- End of banner -->
+<!-- end of Contact modal -->
+
+
+
+
 
 
   <!-- Star of Summary -->
@@ -119,47 +122,48 @@
     <div class="container">
       <div class="row justify-content-center pb-5">
         <div class="col-12 text-center">
-          <h1>Quick Summary<br> ~career journey~</h1>
+          <h1 id="nav-summary">Quick Summary<br> ~career journey~</h1>
            <p>My learning journey to software development has not been linear...<br> While most of our “learning curve” line graphs may not have been straight or at least <br>exponential in progress, mine has had to admit a long haul of valley of disappointment*. <br>You know that  plateau of latent potential when (and where) <br>neither your skills nor interest is not going to budge. </p>
         </div>
       </div>
 
       <div class="row text-left align-items-center pt-5 pb-md-5">
         <div class="col-4 col-md-5">
-          <img alt="image" class="img-fluid" src="./imgs/draws/designer.svg">
+          <img alt="image" class="img-fluid" src="images/stack1.png" id="stackPhoto"><br>
+          <!-- <p>Hover to see covered technologies in color</p> -->
         </div>
 
         <div class="col-12 col-md-5 m-md-auto">
           <h2><strong>Now</strong></h2>
           <p class="lead">This year, I have given myself a fresh start and I am in a brand new discrepancy of my expectations and results of actual efforts. Currently learning <span class="emphasis">Javascript</span>, <span class="emphasis">SQL</span> and catching up on <span class="emphasis">HTML5/CSS </span>on the front-side and will venture on server end with <span class="emphasis">Java</span>, <span class="emphasis">Node.js</span>,<span class="emphasis"> React.js</span> and <span class="emphasis">Spring Boot</span>  next during this 3-month SGUP Microsoft Junior Full-stack Development CLT.
-          <p><a href="#">Learn More <i class="bi bi-arrow-right-short"></i></a></p>
+          <p><i class="bi bi-arrow-left-short"></i><a href="#">Hover to see covered technologies in color </a></p>
         </div>
       </div>
 
       <div class="row text-left align-items-center pt-5 pb-md-5">
         <div class="col-4 col-md-5 m-md-auto order-md-5">
-          <img alt="image" class="img-fluid" src="./imgs/draws/design-life.svg">
+          <img alt="image" class="img-fluid" src="images/team.png">
         </div>
 
         <div class="col-12 col-md-5">
           <h2><strong>Then</strong></h2>
           <p class="lead">In 2017, I was learning computer systems and Agile software development but mostly on the project management side.  Having oriented to <span class="emphasis">UML</span> diagrams, user interviews, <span class="emphasis">Github</span>, <span class="emphasis">MVC</span>, my time at NUS ISS’s Graduate Diploma for Systems Science was fruitful as I found the joy of collaborating with brilliant minds from similarly far-off non-tech industries. Discovering user interface design was another win from this experience as it led me to “autodidact” on Adobe XD and now, <span class="emphasis">Figma</span>.  
            <br><br>This experience also has given me the opportunity to work at a tech startup where I further practiced front-end with Shopify’s <span class="emphasis">Liquid</span> and <span class="emphasis">Bootstrap</span>.</p>
-          <p><a href="#">Learn More <i class="bi bi-arrow-right-short"></i></a></p>
+          <!-- <p><a href="#">Learn More <i class="bi bi-arrow-right-short"></i></a></p> -->
         </div>
       </div>
 
       <div class="row text-left align-items-center pt-5">
         <div class="col-4 col-md-5">
-          <img alt="image" class="img-fluid" src="./imgs/draws/design-community.svg">
+          <img alt="image" class="img-fluid" src="images/pilates.png">
         </div>
 
         <div class="col-12 col-md-5 m-md-auto">
           <h2><strong>And then some...</strong></h2>
           <p class="lead">To enjoy pure self-learning separate from freelancing as a web/digital marketing/graphics services provider I continue to do the latter with <span class="emphasis">Google Analytics</span>, <span class="emphasis">Wordpress</span>, <span class="emphasis">Wix</span> and occasionally, <span class="emphasis">Shopify</span>.<br><br>
-            On the non-tech domains of my life I continue to keep the grey matter piqued by reading at least 16 books a year, learning about fascial restrictions alongside modern <span class="emphasis">Pilates</span>.  When I have some hours to spare I brush on my video editing with <span class="emphasis">Da Vinci Resolve</span>Da Vinci Resolve.
+            On the non-tech domains of my life I continue to keep the grey matter piqued by reading at least 16 books a year, learning about fascial restrictions alongside modern <span class="emphasis">Pilates</span>.  When I have some hours to spare I brush on my video editing with <span class="emphasis">Da Vinci Resolve</span>.
           </p>
-          <p><a href="#">Learn More <i class="bi bi-arrow-right-short"></i></a></p>
+          <!-- <p><a href="#">Learn More <i class="bi bi-arrow-right-short"></i></a></p> -->
         </div>
       </div>
     </div>
@@ -171,7 +175,7 @@
       <img src="images/divider.svg" alt="wave2" style="margin: -120px 0px; width: 100%; position: absolute;">
       <div class="container">
         <div class="col text-center">
-          <h1>Projects</h1>
+          <h1 id="nav-projects">Projects</h1>
           <p>Click on <i class="bi bi-code-slash"></i> to dive on the code straightaway, <br>and <i class="bi bi-link-45deg"></i> to view current project build</p>
         </div>
     </section>
@@ -189,30 +193,31 @@
           <span class="emphasis">Role:</span> Tech Team Lead and UI Designer <br>
           <span class="emphasis">Objectives: </span>To (A) dynamically load products. Following sprints, build (B) persistence and (C) server layers)<br>
           <span class="emphasis">Results:</span> Achieved current expected tasks of A and more.  I implemented a cart with dynamic total amount calculator and toggle cart slider. A feature that is met on top of minimum requirements.<br>
-          <span class="emphasis">Technologies:</span>  Github, JS, CSS, HTML, Bootstrap 5, Google Fonts</p>
+          <span class="emphasis">Technologies:</span>  Github, JS, CSS, HTML, Bootstrap 5</p>
 
         <div class="row pt-5">
           <div class="col-3">
-            <h1> <i class="bi bi-link-45deg"></i></h1>
+            <a href="https://sicatj.github.io/ubento-cart/" target="_blank"><h1> <i class="bi bi-link-45deg"></i></h1></a>
+            
           </div>
           <div class="col-9">
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences.</p>
+            <p>Click on the <i class="bi bi-link-45deg"></i> on the left to try the live site of this project section I'm currently developing.</p>
           </div>
         </div>
 
         <div class="row pt-5">
           <div class="col-9 text-right">
-            <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, there live the blind texts.</p>
+            <p>Or you can just hop right off onto the code resource linked here. Click on the bigger <i class="bi bi-code-slash"></i> next to this.</p>
           </div>
 
           <div class="col-3">
-            <h1><i class="bi bi-code-slash"></i></h1>
+            <a href="https://github.com/sicatj/ubento-cart" target="_blank"><h1><i class="bi bi-code-slash"></i></h1></a>
           </div>
         </div>
       </div>
 
-      <div class="col-7 col-sm-4 m-auto pt-5 pt-md-0">
-        <img alt="image" class="img-fluid" src="./imgs/draws/simple-iphone.svg">
+      <div class="col-lg-6 col-sm-12 m-auto pt-5 pt-md-0">
+        <img alt="image" class="img-fluid" src="images/ubento-cart.gif">
       </div>
     </div>
   </div>
@@ -225,10 +230,38 @@
 <section class="ubo-block" style="background-color: #fef9ff;">
   <div class="container">
     <div class="row">
-    
+
             <div class="row align-items-center">
               <div class="col-10 col-sm-6 m-auto col-md-4 pb-4 pb-md-0">
-                <img alt="image" class="img-fluid rounded-0" src="./imgs/draws/chatting.svg">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/MobileSSIS/home andoid clerk.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/MobileSSIS/CLerk Shelves.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/MobileSSIS/SHelves Detail.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/MobileSSIS/signature.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
               </div>
               <br>
     
@@ -252,21 +285,61 @@
         <div class="row text-left pt-4">
           <div class="col-12 col-md-6">
 
-              <h1> <i class="bi bi-link-45deg"></i></h1>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#slideShowModal"><h1><i class="bi bi-link-45deg"></i></h1></a>
+              <h3><strong>Preview</strong></h3>
 
-            <p >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden
-              flows by their place far far away.</p>
+              <p>Click on the <i class="bi bi-link-45deg"></i> on the left to see previews of the end product of this project.</p>
           </div>
           <div class="col-12 col-md-6">
-            <h1><i class="bi bi-code-slash"></i></h1>
-            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at
-              the coast.</p>
+            <a href="https://github.com/thetnaingaye/Team12_SSIS" target="_blank"><h1><i class="bi bi-code-slash"></i></h1></a>
+            <h3><strong>Code</strong></h3>
+            <p>Or you can just hop right off onto the code resource linked here. Click on the bigger <i class="bi bi-code-slash"></i> above.</p>
           </div>
         </div>
 
     </div>
   </div>
 </section>
+
+<!-- Slideshow Modal -->
+<div class="modal fade" id="slideShowModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">SSIS Screens</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/WebAppSSIS/SSIS AD Project Jan 2018.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/WebAppSSIS/SSIS ANdroid Screens.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/WebAppSSIS/SSIS Clerk Homepage.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <span class="emphasis" data-bs-dismiss="modal">THANK YOU</span>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of Slideshow  modal -->
+
 <!-- End of Project 3 -->
 
 <!-- Start of project 2-->
@@ -288,19 +361,28 @@
 
     <div class="row text-left pt-5">
       <div class="col-12 col-sm-6 col-md-5">
-        <h1> <i class="bi bi-play-btn"></i></h1>
-        <h3><strong>Feature One</strong></h3>
-        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+        <h1><a href="https://www.teapasar.com/" target="_blank"> <i class="bi bi-link-45deg"></i></a></h1>
+        <h3><strong>Live Site</strong></h3>
+        <p>Click on the <i class="bi bi-link-45deg"></i> above to see Teapasar’s website.  This is currently a migrated platform using Wordpress but most of the front end components are roughly the same.</p>
       </div>
 
       <div class="col-12 col-sm-6 col-md-5 ml-sm-auto pt-5 pt-sm-0">
-        <h1><i class="bi bi-code-slash"></i></h1>
-        <h3><strong>Feature Two</strong></h3>
-        <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
+      <h1><a href="https://github.com/sicatj/teapasar.git" target="_blank"><i class="bi bi-code-slash"></i></a></h1>
+        <h3><strong>Code</strong></h3>
+        <p>Or you can just hop right off onto the code resource linked here. Kindly contact me if you need invite to access viewer rights. Click on the bigger <i class="bi bi-code-slash"></i> above.</p>
       </div>
-    </div>
+      <div class="row justify-content-center">
+        <div class="col-12 text-left">
+          <img class="img-fluid" src="images/teapasar web.png">
+  
+        </div>
+      </div>
+
   </div>
+
 </section>
+
+
 <!-- End of project 2- -->
 
 
@@ -311,66 +393,34 @@
     <div class="row justify-content-center pb-xl-5">
       <div class="col-12 col-md-8 text-center">
         <h1>Let's get API-rsonal..</h1>
-        <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <p class="lead">When I have extra time I spend it practicing API consumptions.Ffeel free to skip and jump on over to my <a href="https://github.com/sicatj"> <span class="emphasis">Github</span></a> page.</p>
       </div>
     </div>
 
     <div class="row text-right align-items-center-lg align-items-end pt-5">
-      <div class="col-7 col-sm-4 m-auto mb-md-0 mt-md-0 m-lg-auto">
-        <img alt="image" class="img-fluid" src="./imgs/draws/simple-iphone.svg">
+      <div class="col-lg-6 col-sm-12 m-8 mb-md-0 mt-md-0 m-lg-auto">
+        <img alt="image" class="img-fluid" src="images/quoteGen.gif">
       </div>
 
       <div class="col-12 col-md-7 col-lg-6 col-xl-5 m-auto text-left pt-5 pt-md-0">
         <h3><strong>Quote Generator</strong></h3>
-        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences.</p>
+        <small>A small yet fun JavaScript project pulling random quotes with a button click.  Consumes API and utlizes CDN for graphics.  Twitter API is used to make a fancied quote tweetable. <br>Code here <a href="https://github.com/sicatj/quote-generator" class="emphasis" target="_blank"><i class="bi bi-code-slash"></i></a>
+       <span>Live Site here  <a href="https://sicatj.github.io/ubento-cart/" class="emphasis" target="_blank"> <i class="bi bi-link-45deg"></i></a></span> 
+
+        </small>
 
         <h3 class="mt-4 mt-xl-5"><strong>Unsplash API</strong></h3>
-        <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, there live the blind texts.</p>
+        <small>Another API consumption proejct I did on the side to try infinite scroll and learn more about Unsplash API.  API key hidden on the code here <a href="https://github.com/sicatj/unsplashInfiniteScroll" class="emphasis" target="_blank"><i class="bi bi-code-slash"></i></a> </small>
 
-        <h3 class="mt-4 mt-xl-5"><strong>Other API consumptions</strong></h3>
-        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum.</p>
+        <h3 class="mt-4 mt-xl-5"><strong>Other coding snippets</strong></h3>
+        <small>Continuously building small projectgs and trying out code challenges on my github page <a href="https://github.com/sicatj" class="emphasis" target="_blank"><i class="bi bi-code-slash"></i></a> </small>
       </div>
     </div>
   </div>
 </section>
 <!-- End of Personal Projects -->
 
-<!-- Other non-developer, pther website services -->
 
-<section class="ubo-block">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-left">
-        <h1>Non-developer, <br>web services</h1>
-        <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-
-        <img alt="image" class="img-fluid mt-5" src="./imgs/draws/android.svg">
-      </div>
-    </div>
-
-    <div class="row text-left pt-5">
-      <div class="col-12 col-md-6">
-        <h3><strong>Feature One</strong></h3>
-
-        <p>Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with
-          the necessary regelialia. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
-
-        <p><a href="https://www.froala.com">Learn More <i class="fas fa-angle-right"></i></a></p>
-      </div>
-      <div class="col-12 col-md-6 pt-4 pt-md-0">
-        <h3><strong>Feature Two</strong></h3>
-
-        <p> It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. The Big Oxmox advised her not to do so, because there
-          were thousands of bad Commas, wild Question Marks and devious Semikoli. On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from
-          its origin.</p>
-
-        <p><a href="https://www.froala.com">Learn More <i class="fas fa-angle-right"></i></a></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- end of other non-developer -->
 
 
   <!-- Start of Timeline  -->
@@ -391,28 +441,32 @@
                 <div class="timeline__block">
                   <div class="timeline__bullet"></div>
                   <div class="timeline__header">
-                    <p class="timeline__timeframe">July 2015 - Present</p>
+                    <p class="timeline__timeframe">2022, Present</p>
                     <h3>Awesome Studio</h3>
                     <h5>Lead Designer</h5>
                   </div>
                   <div class="timeline__desc">
-                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat
-                      laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum
-                      laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                    <p>GDIPSA BOOTCAMP</p>
                   </div>
                 </div> <!-- end timeline__block -->
 
                 <div class="timeline__block">
                   <div class="timeline__bullet"></div>
                   <div class="timeline__header">
-                    <p class="timeline__timeframe">July 2014 - June 2015</p>
+                    <p class="timeline__timeframe">2017 - 2021</p>
                     <h3>Super Cool Agency</h3>
                     <h5>Front-end Developer</h5>
                   </div>
                   <div class="timeline__desc">
-                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat
-                      laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum
-                      laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                    <p>GDIPSA and Internship - Merging of Marketing and Software Development, Freelancing</p>
+                    <ul>
+                      <li>GDIPSA</li>
+                      <li>Marketing Technologist Teapasar Pte Ltd (Contractual) : Tech:
+                        •Designed and implemented Shopify Ecommerce Store’s Front End (Teapasar Website as B2B Platform for merchants), •Built out the strategic roadmaps and acted as the product owner for digital marketing processes, •Presented technical details to a non-technical audience and presented strategic vision and roadmap to executive level stakeholders</li>
+                      
+                    </ul>
+                     
+                    
                   </div>
                 </div> <!-- end timeline__block -->
 
@@ -427,28 +481,36 @@
                 <div class="timeline__block">
                   <div class="timeline__bullet"></div>
                   <div class="timeline__header">
-                    <p class="timeline__timeframe">July 2012 - June 2014</p>
+                    <p class="timeline__timeframe"> 2013 - 2015</p>
                     <h3>Great Design Studio</h3>
                     <h5>Web Designer</h5>
                   </div>
                   <div class="timeline__desc">
-                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat
-                      laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum
-                      laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                    <p> Introduction to Marketing, ECommerce and Business Development</p>
+                    <ul>
+                      <li>Business Development Executive - Eyeworkz Pte Ltd under Spex@AMK: •Managed the Gumtree, DBS Moco Loco Sales Application App, Carrousel, Hubspot and Volition e-commerce •Grew network on Facebook & Instagram every day engaging with customers’ by sharing content, finding ways to grow Facebook & Instagram followers
+                      </li>
+                      <li>  Marketing & Communications Executive ,Kith Singapore : •Managed all social media activities for the company, website and marketing collaborations, Developed design briefs that suit the outlet's sales objectives
+                      </li>
+                      <li>  Started Freelancing on graphic and web services 
+                      </li>
+                    </ul>
                   </div>
                 </div> <!-- end timeline__block -->
 
                 <div class="timeline__block">
                   <div class="timeline__bullet"></div>
                   <div class="timeline__header">
-                    <p class="timeline__timeframe">July 2011 - June 2012</p>
+                    <p class="timeline__timeframe">2006 - 2012</p>
                     <h3>Epic Design Agency</h3>
                     <h5>Web Designer</h5>
                   </div>
                   <div class="timeline__desc">
-                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat
-                      laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum
-                      laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                    <p>Years of Research assistant in Academe and Non-profit, Litigation Analyst for MSCI,  International Business Markets and Training Business Vertical Analyst</p>
+                    <ul>
+                      <li>Research Intern Center for International Relations and Strategic Studies Foreign Service Institute, Department of Foreign Affairs: Assisted in research projects of the CIRSS, particularly to the Japan Desk of the North East Asia Program</li>
+                      <li>  Morgan Stanley Capital International Inc./ RiskMetrics Group/Institutional Shareholder Services : Maintained securities class action services database through input of database, schedules clean-up of figures/information errors, back-up of documents</li>
+                    </ul>
                   </div>
                 </div> <!-- end timeline__block -->
 
