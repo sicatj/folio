@@ -15,7 +15,9 @@
     crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-
+  <!-- activate before pushing -->
+  <!-- <link rel="stylesheet" type="text/css" href="folio/css/style.css"> -->
+  <!-- deactivate before pushing -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>JSicat Porfolio</title>
 </head>
@@ -26,8 +28,8 @@
     <div class="container">
       <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-              <a class="nav-item active" href="/index.html"><strong>Jane Sicat</strong> </a>
-        
+          <a class="nav-item active" href="/index.html"><strong>Jane Sicat</strong> </a>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -51,7 +53,8 @@
                 <a class="nav-link" href="#nav-summary"><i class="bi bi-record-circle"></i> Journey</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal"><i class="bi bi-record-circle"></i> Contact</a>
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal"><i
+                    class="bi bi-record-circle"></i> Contact</a>
               </li>
             </ul>
           </div>
@@ -67,14 +70,21 @@
       <div class="row header-wrap">
         <div class="col-lg-6 col-md-12 ">
           <div class="header-title">
-  
-            <h1 style="word-break: break-word; word-wrap: break-word"><strong>Hello, I'm <span class="hero-highlight"> Jane</span>.
-                Welcome to my space on the web.
+
+            <h1 style="word-break: break-word; word-wrap: break-word"><strong>Hello, I'm <span class="hero-highlight">
+                  Jane</span>
               </strong></h1>
-               
-            <h6>As a former marketeer cultivating her love for front-end development, this is where I share my programming adventure.  While my future bread and butter may involve constant debugging, I concurrently <span class="emphasis">try</span> and <span class="emphasis">catch</span> myself committing that syntactic error (every single time), so before that bores you, feel free to jump over my <a href="https://github.com/sicatj"> <span class="emphasis">Github</span></a> page.</h6>
-              <br>
-              <br>
+
+            <h1>Welcome to my code corner.</h1>
+
+
+            <h6>As a former marketeer cultivating her love for front-end development, this is where I share my
+              programming adventure. While my future bread and butter may involve constant debugging, I concurrently
+              <span class="emphasis">try</span> and <span class="emphasis">catch</span> myself committing that syntactic
+              error (every single time), so before that bores you, feel free to jump over my <a
+                href="https://github.com/sicatj"> <span class="emphasis">Github</span></a> page.</h6>
+            <br>
+            <br>
             <br>
             <br>
             <br>
@@ -86,31 +96,34 @@
         <div class="col-lg-6 col-md-12 col-md- image-wrapper" id="adjust-hero-img">
           <img class="w-100 header-ml" src="images/header-portrait.png" alt="">
           <div class="typewriter">
-            <h3>Coffee & code with me? <i class="bi bi-mailbox" data-bs-toggle="modal" data-bs-target="#contactModal"></i></h3>
+            <h3>Coffee & code with me? <i class="bi bi-mailbox" data-bs-toggle="modal"
+                data-bs-target="#contactModal"></i></h3>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-<!-- Contact Modal -->
-<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZ0UjBVD4yoLciASxiDPIbRRBoohF2PuuLCdneIMAST0ZTBg/viewform?embedded=true" width="100%" height="677" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      </div>
-      <div class="modal-footer">
-        <span class="emphasis" data-bs-dismiss="modal">THANK YOU</span>
+  <!-- Contact Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeZ0UjBVD4yoLciASxiDPIbRRBoohF2PuuLCdneIMAST0ZTBg/viewform?embedded=true"
+            width="100%" height="677" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        <div class="modal-footer">
+          <span class="emphasis" data-bs-dismiss="modal">THANK YOU</span>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<!-- end of Contact modal -->
+  <!-- end of Contact modal -->
 
 
 
@@ -123,19 +136,27 @@
       <div class="row justify-content-center pb-5">
         <div class="col-12 text-center">
           <h1 id="nav-summary">Quick Summary<br> ~career journey~</h1>
-           <p>My learning journey to software development has not been linear...<br> While most of our “learning curve” line graphs may not have been straight or at least <br>exponential in progress, mine has had to admit a long haul of valley of disappointment*. <br>You know that  plateau of latent potential when (and where) <br>neither your skills nor interest is not going to budge. </p>
+          <p>My learning journey to software development has not been linear...<br> While most of our “learning curve”
+            line graphs may not have been straight or at least <br>exponential in progress, mine has had to admit a long
+            haul of valley of disappointment*. <br>You know that plateau of latent potential when (and where)
+            <br>neither your skills nor interest is not going to budge. </p>
         </div>
       </div>
 
       <div class="row text-left align-items-center pt-5 pb-md-5">
         <div class="col-4 col-md-5">
-          <img alt="image" class="img-fluid" src="images/stack1.png" id="stackPhoto"><br>
+          <img alt="image" class="img-fluid" src="images/stack1.png.001.png" id="stackPhoto"><br>
           <!-- <p>Hover to see covered technologies in color</p> -->
         </div>
 
         <div class="col-12 col-md-5 m-md-auto">
           <h2><strong>Now</strong></h2>
-          <p class="lead">This year, I have given myself a fresh start and I am in a brand new discrepancy of my expectations and results of actual efforts. Currently learning <span class="emphasis">Javascript</span>, <span class="emphasis">SQL</span> and catching up on <span class="emphasis">HTML5/CSS </span>on the front-side and will venture on server end with <span class="emphasis">Java</span>, <span class="emphasis">Node.js</span>,<span class="emphasis"> React.js</span> and <span class="emphasis">Spring Boot</span>  next during this 3-month SGUP Microsoft Junior Full-stack Development CLT.
+          <p class="lead">This year, I have given myself a fresh start and I am in a brand new discrepancy of my
+            expectations and results of actual efforts. Currently learning <span class="emphasis">Javascript</span>,
+            <span class="emphasis">SQL</span> and catching up on <span class="emphasis">HTML5/CSS </span>on the
+            front-side and will venture on server end with <span class="emphasis">Java</span>, <span
+              class="emphasis">Node.js</span>,<span class="emphasis"> React.js</span> and <span class="emphasis">Spring
+              Boot</span> next during this 3-month SGUP Microsoft Junior Full-stack Development CLT.
           <p><i class="bi bi-arrow-left-short"></i><a href="#">Hover to see covered technologies in color </a></p>
         </div>
       </div>
@@ -147,8 +168,16 @@
 
         <div class="col-12 col-md-5">
           <h2><strong>Then</strong></h2>
-          <p class="lead">In 2017, I was learning computer systems and Agile software development but mostly on the project management side.  Having oriented to <span class="emphasis">UML</span> diagrams, user interviews, <span class="emphasis">Github</span>, <span class="emphasis">MVC</span>, my time at NUS ISS’s Graduate Diploma for Systems Science was fruitful as I found the joy of collaborating with brilliant minds from similarly far-off non-tech industries. Discovering user interface design was another win from this experience as it led me to “autodidact” on Adobe XD and now, <span class="emphasis">Figma</span>.  
-           <br><br>This experience also has given me the opportunity to work at a tech startup where I further practiced front-end with Shopify’s <span class="emphasis">Liquid</span> and <span class="emphasis">Bootstrap</span>.</p>
+          <p class="lead">In 2017, I learned about computer systems and Agile software development but mostly on the
+            project management side. Having oriented to <span class="emphasis">UML</span> diagrams, user interviews,
+            <span class="emphasis">Github</span>, <span class="emphasis">MVC design pattern</span>, my time at NUS ISS’s Graduate
+            Diploma for Systems Analysis was fruitful as I found the joy of collaborating with brilliant minds from
+            similar non-tech industries and backgrounds. Discovering user interface design was another win from this
+            experience as it led me to “autodidact” on Adobe XD and now, <span class="emphasis">Figma</span>.
+            <br><br>This experience also has given me the opportunity to work at a tech startup where I further
+            practiced front-end with Shopify’s <span class="emphasis">Liquid</span> and <span
+              class="emphasis">Bootstrap</span>.
+          </p>
           <!-- <p><a href="#">Learn More <i class="bi bi-arrow-right-short"></i></a></p> -->
         </div>
       </div>
@@ -160,8 +189,14 @@
 
         <div class="col-12 col-md-5 m-md-auto">
           <h2><strong>And then some...</strong></h2>
-          <p class="lead">To enjoy pure self-learning separate from freelancing as a web/digital marketing/graphics services provider I continue to do the latter with <span class="emphasis">Google Analytics</span>, <span class="emphasis">Wordpress</span>, <span class="emphasis">Wix</span> and occasionally, <span class="emphasis">Shopify</span>.<br><br>
-            On the non-tech domains of my life I continue to keep the grey matter piqued by reading at least 16 books a year, learning about fascial restrictions alongside modern <span class="emphasis">Pilates</span>.  When I have some hours to spare I brush on my video editing with <span class="emphasis">Da Vinci Resolve</span>.
+          <p class="lead">To enjoy pure self-learning separate from freelancing as a web/digital marketing/graphics
+            services provider I continue to do the latter with <span class="emphasis">Google Analytics</span>, <span
+              class="emphasis">Wordpress</span>, <span class="emphasis">Wix</span> and occasionally, <span
+              class="emphasis">Shopify</span>.<br><br>
+            On the non-tech domains of my life I continue to keep the grey matter piqued by reading at least 16 books a
+            year, and learning about fascial restrictions to help me become a better<span class="emphasis"> Pilates
+              Instructor</span>. When I have some hours to spare I brush on my video editing with <span
+              class="emphasis">Da Vinci Resolve</span>.
           </p>
           <!-- <p><a href="#">Learn More <i class="bi bi-arrow-right-short"></i></a></p> -->
         </div>
@@ -170,255 +205,301 @@
   </section>
 
   <!-- End of Summary -->
-<!-- Start Projects Title section  -->
-    <section class="ubo-block" style="background-color: #fef9ff;">
-      <img src="images/divider.svg" alt="wave2" style="margin: -120px 0px; width: 100%; position: absolute;">
-      <div class="container">
-        <div class="col text-center">
-          <h1 id="nav-projects">Projects</h1>
-          <p>Click on <i class="bi bi-code-slash"></i> to dive on the code straightaway, <br>and <i class="bi bi-link-45deg"></i> to view current project build</p>
-        </div>
-    </section>
-    <!-- End of Projects TItle Section -->
-
-<!-- Start of project 1-->
-<section class="ubo-block" style="background-color: #fef9ff;">
-  <div class="container">
-    <div class="row text-right align-items-center">
-      <div class="col-12 col-lg-6 col-xl-5 m-lg-auto text-left">
-        <h6>BOOTCAMP PROJECT: <span class="hero-highlight">E-COMMERCE</span></h6>
-        <h2>UBENTO</h2>
-
-        <p class="lead"><span class="emphasis">Overview:</span> Head started the project by initiating the project timeline at all project milestone/points<br>
-          <span class="emphasis">Role:</span> Tech Team Lead and UI Designer <br>
-          <span class="emphasis">Objectives: </span>To (A) dynamically load products. Following sprints, build (B) persistence and (C) server layers)<br>
-          <span class="emphasis">Results:</span> Achieved current expected tasks of A and more.  I implemented a cart with dynamic total amount calculator and toggle cart slider. A feature that is met on top of minimum requirements.<br>
-          <span class="emphasis">Technologies:</span>  Github, JS, CSS, HTML, Bootstrap 5</p>
-
-        <div class="row pt-5">
-          <div class="col-3">
-            <a href="https://sicatj.github.io/ubento-cart/" target="_blank"><h1> <i class="bi bi-link-45deg"></i></h1></a>
-            
-          </div>
-          <div class="col-9">
-            <p>Click on the <i class="bi bi-link-45deg"></i> on the left to try the live site of this project section I'm currently developing.</p>
-          </div>
-        </div>
-
-        <div class="row pt-5">
-          <div class="col-9 text-right">
-            <p>Or you can just hop right off onto the code resource linked here. Click on the bigger <i class="bi bi-code-slash"></i> next to this.</p>
-          </div>
-
-          <div class="col-3">
-            <a href="https://github.com/sicatj/ubento-cart" target="_blank"><h1><i class="bi bi-code-slash"></i></h1></a>
-          </div>
-        </div>
+  <!-- Start Projects Title section  -->
+  <section class="ubo-block" style="background-color: #fef9ff;">
+    <img src="images/divider.svg" alt="wave2" style="margin: -120px 0px; width: 100%; position: absolute;">
+    <div class="container">
+      <div class="col text-center">
+        <h1 id="nav-projects">Projects</h1>
+        <p>Click on <i class="bi bi-code-slash"></i> to dive on the code straightaway, <br>and <i
+            class="bi bi-link-45deg"></i> to view current project build</p>
       </div>
+  </section>
+  <!-- End of Projects TItle Section -->
 
-      <div class="col-lg-6 col-sm-12 m-auto pt-5 pt-md-0">
-        <img alt="image" class="img-fluid" src="images/ubento-cart.gif">
+  <!-- Start of project 1-->
+  <section class="ubo-block" style="background-color: #fef9ff;">
+    <div class="container">
+      <div class="row text-right align-items-center">
+        <div class="col-12 col-lg-6 col-xl-5 m-lg-auto text-left">
+          <h6>BOOTCAMP PROJECT: <span class="hero-highlight">E-COMMERCE</span></h6>
+          <h2>UBENTO</h2>
+
+          <p class="lead"><span class="emphasis">Overview:</span> Head started the project by initiating the project
+            timeline at all project milestone/points<br>
+            <span class="emphasis">Role:</span> Tech Team Lead and UI Designer <br>
+            <span class="emphasis">Objectives: </span>To (A) dynamically load products. Following sprints, build (B)
+            persistence and (C) server layers)<br>
+            <span class="emphasis">Results:</span> Achieved current expected tasks of A and more. I implemented a cart
+            with dynamic total amount calculator and toggle cart slider. A feature that is met on top of minimum
+            requirements.<br>
+            <span class="emphasis">Technologies:</span> Github, JS, CSS, HTML, Bootstrap 5
+          </p>
+
+          <div class="row pt-5">
+            <div class="col-3">
+              <a href="https://sicatj.github.io/ubento-cart/" target="_blank">
+                <h1> <i class="bi bi-link-45deg"></i></h1>
+              </a>
+
+            </div>
+            <div class="col-9">
+              <p>Click on the <i class="bi bi-link-45deg"></i> on the left to try the live site of this project section
+                I'm currently developing.</p>
+            </div>
+          </div>
+
+          <div class="row pt-5">
+            <div class="col-9 text-right">
+              <p>Or you can just hop right off onto the code resource linked here. Click on the bigger <i
+                  class="bi bi-code-slash"></i> next to this.</p>
+            </div>
+
+            <div class="col-3">
+              <a href="https://github.com/sicatj/ubento-cart" target="_blank">
+                <h1><i class="bi bi-code-slash"></i></h1>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-sm-12 m-auto pt-5 pt-md-0">
+          <img alt="image" class="img-fluid" src="images/ubento-cart.gif">
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- End of project 1-->
+  <!-- End of project 1-->
 
-<!-- Start of Project 3 -->
-  
-<section class="ubo-block" style="background-color: #fef9ff;">
-  <div class="container">
-    <div class="row">
+  <!-- Start of Project 3 -->
 
-            <div class="row align-items-center">
-              <div class="col-10 col-sm-6 m-auto col-md-4 pb-4 pb-md-0">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="images/MobileSSIS/home andoid clerk.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/MobileSSIS/CLerk Shelves.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/MobileSSIS/SHelves Detail.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/MobileSSIS/signature.png" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+  <section class="ubo-block" style="background-color: #fef9ff;">
+    <div class="container">
+      <div class="row">
+
+        <div class="row align-items-center">
+          <div class="col-10 col-sm-6 m-auto col-md-4 pb-4 pb-md-0">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/MobileSSIS/home andoid clerk.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/MobileSSIS/CLerk Shelves.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/MobileSSIS/SHelves Detail.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/MobileSSIS/signature.png" class="d-block w-100" alt="...">
                 </div>
               </div>
-              <br>
-    
-              <div class="col-12 ml-auto col-md-6 col-lg-5">
-                <h6>CAPSTONE PROJECT: <span class="hero-highlight">MULTI-LEVEL USER INVENTORY SYSTEM</span></h6>
-    <h2>SSIS INVENTORY SYSTEM</h2>
-    <p class="lead">
-      <span class="emphasis">Overview:</span> Ecommerce Capacity Multi-level User Inventory System (Web and Mobile App)
-      <br>
-      <span class="emphasis">Role:</span> Programmer, Designer, Systems Analyst
-      <br>
-      <span class="emphasis">Objectives: </span>To build and End-to-end Stationery Inventory System for School Network<br>
-      <span class="emphasis">Results:</span> As a programmer, I was in charge of, largely, the overall aesthetic design of our application and documentation.  I was the owner of all CSS document within the working solution and corresponding aspx tags for ASP.NET and signature pad for Android. Our implementation of bootstrap is majorly customized to suit the usability and navigational ease objectives we have for the users. <br>
-      <span class="emphasis">Project Technologies:</span> C#, Classic ASP, JavaScript, R, CSS, HTML, Android
-      <span class="emphasis">Contribution Technologies:</span>  Github, CSS, HTML
-    </p>
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <br>
+          </div>
+          <br>
+
+          <div class="col-12 ml-auto col-md-6 col-lg-5">
+            <h6>CAPSTONE PROJECT: <span class="hero-highlight">MULTI-LEVEL USER INVENTORY SYSTEM</span></h6>
+            <h2>SSIS INVENTORY SYSTEM</h2>
+            <p class="lead">
+              <span class="emphasis">Overview:</span> Ecommerce Capacity Multi-level User Inventory System (Web and
+              Mobile App)
+              <br>
+              <span class="emphasis">Role:</span> Programmer, Designer, Systems Analyst
+              <br>
+              <span class="emphasis">Objectives: </span>To build and End-to-end Stationery Inventory System for School
+              Network<br>
+              <span class="emphasis">Results:</span> As a programmer, I was in charge of, largely, the overall aesthetic
+              design of our application and documentation.  I was the owner of all CSS document within the working
+              solution and corresponding aspx tags for ASP.NET and signature pad for Android. Our implementation of
+              bootstrap is majorly customized to suit the usability and navigational ease objectives we have for the
+              users. <br>
+              <span class="emphasis">Project Technologies:</span> C#, Classic ASP, JavaScript, R, CSS, HTML, Android
+              <span class="emphasis"><br>
+                Contribution Technologies:</span> Github, CSS, HTML
+            </p>
+          </div>
+        </div>
+        <br>
 
         <div class="row text-left pt-4">
           <div class="col-12 col-md-6">
 
-            <a href="#" data-bs-toggle="modal" data-bs-target="#slideShowModal"><h1><i class="bi bi-link-45deg"></i></h1></a>
-              <h3><strong>Preview</strong></h3>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#slideShowModal">
+              <h1><i class="bi bi-link-45deg"></i></h1>
+            </a>
+            <h3><strong>Preview</strong></h3>
 
-              <p>Click on the <i class="bi bi-link-45deg"></i> on the left to see previews of the end product of this project.</p>
+            <p>Click on the <i class="bi bi-link-45deg"></i> on the left to see previews of the end product of this
+              project.</p>
           </div>
           <div class="col-12 col-md-6">
-            <a href="https://github.com/thetnaingaye/Team12_SSIS" target="_blank"><h1><i class="bi bi-code-slash"></i></h1></a>
+            <a href="https://github.com/thetnaingaye/Team12_SSIS" target="_blank">
+              <h1><i class="bi bi-code-slash"></i></h1>
+            </a>
             <h3><strong>Code</strong></h3>
-            <p>Or you can just hop right off onto the code resource linked here. Click on the bigger <i class="bi bi-code-slash"></i> above.</p>
+            <p>Or you can just hop right off onto the code resource linked here. Click on the bigger <i
+                class="bi bi-code-slash"></i> above.</p>
           </div>
         </div>
 
-    </div>
-  </div>
-</section>
-
-<!-- Slideshow Modal -->
-<div class="modal fade" id="slideShowModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">SSIS Screens</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/WebAppSSIS/SSIS AD Project Jan 2018.png" class="d-block w-100" alt="...">
+    </div>
+  </section>
+
+  <!-- Slideshow Modal -->
+  <div class="modal fade" id="slideShowModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">SSIS Screens</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/WebAppSSIS/SSIS AD Project Jan 2018.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/WebAppSSIS/SSIS ANdroid Screens.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/WebAppSSIS/SSIS Clerk Homepage.png" class="d-block w-100" alt="...">
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="images/WebAppSSIS/SSIS ANdroid Screens.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="images/WebAppSSIS/SSIS Clerk Homepage.png" class="d-block w-100" alt="...">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        </div>
+        <div class="modal-footer">
+          <span class="emphasis" data-bs-dismiss="modal">THANK YOU</span>
         </div>
       </div>
-      <div class="modal-footer">
-        <span class="emphasis" data-bs-dismiss="modal">THANK YOU</span>
-      </div>
     </div>
   </div>
-</div>
-<!-- end of Slideshow  modal -->
+  <!-- end of Slideshow  modal -->
 
-<!-- End of Project 3 -->
+  <!-- End of Project 3 -->
 
-<!-- Start of project 2-->
-<section class="ubo-block" style="background-color: #fef9ff;">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-left">
-        <h6>WORK DEMO: <span class="hero-highlight">SHOPIFY E-COMMERCE</span></h6>
-        <h2>TEAPASAR</h2>
-        <p class="lead">
-          <span class="emphasis">Role:</span> Marketing Technologist and Front-End Builder
-          <br>
-          <span class="emphasis">Objectives: </span>To build templates for Product, Merchant and Product Feature Pages as well as <br>
-          <span class="emphasis">Results:</span> Achieved current expected tasks and provided ad-hoc template customizations.<br>
-          <span class="emphasis">Technologies:</span>  Shopify Template Liquid, CSS, HTML, Bootstrap Grid</p>
-
-      </div>
-    </div>
-
-    <div class="row text-left pt-5">
-      <div class="col-12 col-sm-6 col-md-5">
-        <h1><a href="https://www.teapasar.com/" target="_blank"> <i class="bi bi-link-45deg"></i></a></h1>
-        <h3><strong>Live Site</strong></h3>
-        <p>Click on the <i class="bi bi-link-45deg"></i> above to see Teapasar’s website.  This is currently a migrated platform using Wordpress but most of the front end components are roughly the same.</p>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-5 ml-sm-auto pt-5 pt-sm-0">
-      <h1><a href="https://github.com/sicatj/teapasar.git" target="_blank"><i class="bi bi-code-slash"></i></a></h1>
-        <h3><strong>Code</strong></h3>
-        <p>Or you can just hop right off onto the code resource linked here. Kindly contact me if you need invite to access viewer rights. Click on the bigger <i class="bi bi-code-slash"></i> above.</p>
-      </div>
+  <!-- Start of project 2-->
+  <section class="ubo-block" style="background-color: #fef9ff;">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-left">
-          <img class="img-fluid" src="images/teapasar web.png">
-  
+          <h6>WORK DEMO: <span class="hero-highlight">SHOPIFY E-COMMERCE</span></h6>
+          <h2>TEAPASAR</h2>
+          <p class="lead">
+            <span class="emphasis">Role:</span> Marketing Technologist and Front-End Builder
+            <br>
+            <span class="emphasis">Objectives: </span>To build templates for Product, Merchant and Product Feature Pages
+            as well as <br>
+            <span class="emphasis">Results:</span> Achieved current expected tasks and provided ad-hoc template
+            customizations.<br>
+            <span class="emphasis">Technologies:</span> Shopify Template Liquid, CSS, HTML, Bootstrap Grid
+          </p>
+
         </div>
       </div>
 
-  </div>
+      <div class="row text-left pt-5">
+        <div class="col-12 col-sm-6 col-md-5">
+          <h1><a href="https://www.teapasar.com/" target="_blank"> <i class="bi bi-link-45deg"></i></a></h1>
+          <h3><strong>Live Site</strong></h3>
+          <p>Click on the <i class="bi bi-link-45deg"></i> above to see Teapasar’s website. This is currently a migrated
+            platform using Wordpress but most of the front end components are roughly the same.</p>
+        </div>
 
-</section>
+        <div class="col-12 col-sm-6 col-md-5 ml-sm-auto pt-5 pt-sm-0">
+          <h1><a href="https://github.com/sicatj/teapasar.git" target="_blank"><i class="bi bi-code-slash"></i></a></h1>
+          <h3><strong>Code</strong></h3>
+          <p>Or you can just hop right off onto the code resource linked here. Kindly contact me if you need invite to
+            access viewer rights. Click on the bigger <i class="bi bi-code-slash"></i> above.</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 text-left">
+            <img class="img-fluid" src="images/teapasar web.png">
+
+          </div>
+        </div>
+
+      </div>
+
+  </section>
 
 
-<!-- End of project 2- -->
+  <!-- End of project 2- -->
 
 
 
-<!-- Start of Personal Projects -->
-<section class="ubo-block">
-  <div class="container">
-    <div class="row justify-content-center pb-xl-5">
-      <div class="col-12 col-md-8 text-center">
-        <h1>Let's get API-rsonal..</h1>
-        <p class="lead">When I have extra time I spend it practicing API consumptions.Ffeel free to skip and jump on over to my <a href="https://github.com/sicatj"> <span class="emphasis">Github</span></a> page.</p>
+  <!-- Start of Personal Projects -->
+  <section class="ubo-block">
+    <div class="container">
+      <div class="row justify-content-center pb-xl-5">
+        <div class="col-12 col-md-8 text-center">
+          <h1>Let's get API-rsonal..</h1>
+          <p class="lead">When I have extra time I spend it practicing API consumptions. Feel free to skip and jump on
+            over to my <a href="https://github.com/sicatj"> <span class="emphasis">Github</span></a> page.</p>
+        </div>
+      </div>
+
+      <div class="row text-right align-items-center-lg align-items-end pt-5">
+        <div class="col-lg-6 col-sm-12 m-8 mb-md-0 mt-md-0 m-lg-auto">
+          <img alt="image" class="img-fluid" src="images/quoteGen.gif">
+        </div>
+
+        <div class="col-12 col-md-7 col-lg-6 col-xl-5 m-auto text-left pt-5 pt-md-0">
+          <h3><strong>Quote Generator</strong></h3>
+          <p>A small yet fun JavaScript project pulling random quotes with a button click. Consumes API and utlizes CDN
+            for graphics. Twitter API is used to make a fancied quote tweetable. <br>Code here <a
+              href="https://github.com/sicatj/quote-generator" class="emphasis" target="_blank"><i
+                class="bi bi-code-slash"></i></a>
+            <span>Live Site here <a href="https://sicatj.github.io/ubento-cart/" class="emphasis" target="_blank"> <i
+                  class="bi bi-link-45deg"></i></a></span>
+
+          </p>
+
+          <h3 class="mt-4 mt-xl-5"><strong>Unsplash API</strong></h3>
+          <p>Another API consumption proejct I did on the side to try infinite scroll and learn more about Unsplash API.
+            API key hidden on the code here <a href="https://github.com/sicatj/unsplashInfiniteScroll" class="emphasis"
+              target="_blank"><i class="bi bi-code-slash"></i></a> </p>
+
+          <h3 class="mt-4 mt-xl-5"><strong>Other coding snippets</strong></h3>
+          <p>Continuously building small projectgs and trying out code challenges on my github page <a
+              href="https://github.com/sicatj" class="emphasis" target="_blank"><i class="bi bi-code-slash"></i></a>
+          </p>
+        </div>
       </div>
     </div>
-
-    <div class="row text-right align-items-center-lg align-items-end pt-5">
-      <div class="col-lg-6 col-sm-12 m-8 mb-md-0 mt-md-0 m-lg-auto">
-        <img alt="image" class="img-fluid" src="images/quoteGen.gif">
-      </div>
-
-      <div class="col-12 col-md-7 col-lg-6 col-xl-5 m-auto text-left pt-5 pt-md-0">
-        <h3><strong>Quote Generator</strong></h3>
-        <small>A small yet fun JavaScript project pulling random quotes with a button click.  Consumes API and utlizes CDN for graphics.  Twitter API is used to make a fancied quote tweetable. <br>Code here <a href="https://github.com/sicatj/quote-generator" class="emphasis" target="_blank"><i class="bi bi-code-slash"></i></a>
-       <span>Live Site here  <a href="https://sicatj.github.io/ubento-cart/" class="emphasis" target="_blank"> <i class="bi bi-link-45deg"></i></a></span> 
-
-        </small>
-
-        <h3 class="mt-4 mt-xl-5"><strong>Unsplash API</strong></h3>
-        <small>Another API consumption proejct I did on the side to try infinite scroll and learn more about Unsplash API.  API key hidden on the code here <a href="https://github.com/sicatj/unsplashInfiniteScroll" class="emphasis" target="_blank"><i class="bi bi-code-slash"></i></a> </small>
-
-        <h3 class="mt-4 mt-xl-5"><strong>Other coding snippets</strong></h3>
-        <small>Continuously building small projectgs and trying out code challenges on my github page <a href="https://github.com/sicatj" class="emphasis" target="_blank"><i class="bi bi-code-slash"></i></a> </small>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End of Personal Projects -->
+  </section>
+  <!-- End of Personal Projects -->
 
 
 
@@ -442,11 +523,13 @@
                   <div class="timeline__bullet"></div>
                   <div class="timeline__header">
                     <p class="timeline__timeframe">2022, Present</p>
-                    <h3>Awesome Studio</h3>
-                    <h5>Lead Designer</h5>
+                    <h3>SGUP Microsoft Junior Full-stack Development CLT
+                    </h3>
+                    <h5>Trainee, Junior Full Stack Developer</h5>
                   </div>
                   <div class="timeline__desc">
-                    <p>GDIPSA BOOTCAMP</p>
+                    <small>After a much slower pace as a freelancer during the pandemic, and as a new mother, I reflected on my past experiences and decided to deepen my knowledge and grow my tech repertoire.  This time I would want to zoom in on modern libraries and frameworks that are not only relevant and popular but are also promising to small to medium enterprises alike, who may have been forced to rethink the way they do their business.</small> 
+                     <small> As a grateful student of SGUP Microsoft Junior Full-stack Development CLT, I want to refine my developer skills and hopefully give back not only to my clients but also to my family by providing minimum tech education and to my future colleagues and collaborators in tech space by striving to become developer advocate.</small><br><br>
                   </div>
                 </div> <!-- end timeline__block -->
 
@@ -454,19 +537,15 @@
                   <div class="timeline__bullet"></div>
                   <div class="timeline__header">
                     <p class="timeline__timeframe">2017 - 2021</p>
-                    <h3>Super Cool Agency</h3>
-                    <h5>Front-end Developer</h5>
+                    <h3>Graduate Diploma and First Tech Role</h3>
+                    <h5>Front-end Developer & Marketing Technologist</h5>
                   </div>
                   <div class="timeline__desc">
-                    <p>GDIPSA and Internship - Merging of Marketing and Software Development, Freelancing</p>
-                    <ul>
-                      <li>GDIPSA</li>
-                      <li>Marketing Technologist Teapasar Pte Ltd (Contractual) : Tech:
-                        •Designed and implemented Shopify Ecommerce Store’s Front End (Teapasar Website as B2B Platform for merchants), •Built out the strategic roadmaps and acted as the product owner for digital marketing processes, •Presented technical details to a non-technical audience and presented strategic vision and roadmap to executive level stakeholders</li>
-                      
-                    </ul>
-                     
-                    
+                     <small>Enrolling to NUS ISS Graduate DIploma in Systems Analysis was one of the most valuable decisions I made. It made me self-directed in my academic and career development. During the course I learned about Software Development Life Cycle, Agile Methodology, Systems Architecture and delved into collaborative projects throughout the course for four months and further enhanced the takeaway skills learned by immersing in Industry Attachment internship for 6 months</small>
+                     <small>Then came my internship with Teapasar Pte Ltd  when the start-up was prepping for their launch.  I also joined them under a contract following the attachment as a Marketing Technologist and Front-end Developer. I helped designed and implemented Shopify Ecommerce Store’s Front End for merchants and end users alike. </small> <br>
+                        <small>I still continue to do freelancing on a much smaller scale.</small>
+                  
+
                   </div>
                 </div> <!-- end timeline__block -->
 
@@ -482,18 +561,18 @@
                   <div class="timeline__bullet"></div>
                   <div class="timeline__header">
                     <p class="timeline__timeframe"> 2013 - 2015</p>
-                    <h3>Great Design Studio</h3>
-                    <h5>Web Designer</h5>
+                    <h3>Marketing and Business Development</h3>
+                    <h5>Moving to Singapore paved way for my introduction to Marketing, E-commerce and Business Development</h5>
                   </div>
                   <div class="timeline__desc">
-                    <p> Introduction to Marketing, ECommerce and Business Development</p>
-                    <ul>
-                      <li>Business Development Executive - Eyeworkz Pte Ltd under Spex@AMK: •Managed the Gumtree, DBS Moco Loco Sales Application App, Carrousel, Hubspot and Volition e-commerce •Grew network on Facebook & Instagram every day engaging with customers’ by sharing content, finding ways to grow Facebook & Instagram followers
-                      </li>
-                      <li>  Marketing & Communications Executive ,Kith Singapore : •Managed all social media activities for the company, website and marketing collaborations, Developed design briefs that suit the outlet's sales objectives
-                      </li>
-                      <li>  Started Freelancing on graphic and web services 
-                      </li>
+                    <small>I started as Business Development Executive for Eyeworkz Pte Ltd under Spex@AMK where I managed Hubspot and Volition e-commerce, grew network on Facebook & Instagram and have been given opportunities to explore ecommerce feasibility for the business' brick and mortar chain
+                      Facebook & Instagram followers
+                    </small><br>
+                    <small>I took on a Marketing Executiev role for Kith Singapore where I managed all social media activities
+                      for the company, website and marketing collaborations, Developed design briefs that suit the
+                      outlet's sales objectives 
+                    </small><br>
+                     <small> In between I started Freelancing on graphic and web services. </small><br><br><br>
                     </ul>
                   </div>
                 </div> <!-- end timeline__block -->
@@ -502,14 +581,15 @@
                   <div class="timeline__bullet"></div>
                   <div class="timeline__header">
                     <p class="timeline__timeframe">2006 - 2012</p>
-                    <h3>Epic Design Agency</h3>
-                    <h5>Web Designer</h5>
+                    <h3>Multi-Industries</h3>
+                    <h5>Researcher and Analyst</h5>
                   </div>
                   <div class="timeline__desc">
-                    <p>Years of Research assistant in Academe and Non-profit, Litigation Analyst for MSCI,  International Business Markets and Training Business Vertical Analyst</p>
-                    <ul>
-                      <li>Research Intern Center for International Relations and Strategic Studies Foreign Service Institute, Department of Foreign Affairs: Assisted in research projects of the CIRSS, particularly to the Japan Desk of the North East Asia Program</li>
-                      <li>  Morgan Stanley Capital International Inc./ RiskMetrics Group/Institutional Shareholder Services : Maintained securities class action services database through input of database, schedules clean-up of figures/information errors, back-up of documents</li>
+                    <small>These are my formative professional years spent as a researcher in the academe and
+                      non-profit spaces as well as a Litigation Analyst for Morgan Stanley Capital International (MSCI), and as a Lead Training Business Vertical Analyst for Aegis Philippines (n.k.a.
+                      Teleperformance).</small><br>
+                    <small>Straight off college I also valued working as a Research Intern for Center for International Relations and Strategic Studies (CIRSS) Foreign Service Institute, Department of Foreign Affairs. I assisted in research projects of the CIRSS, particularly to the Japan Desk of the North East Asia Program</small>
+
                     </ul>
                   </div>
                 </div> <!-- end timeline__block -->
@@ -530,36 +610,49 @@
 
   <!-- Start of Testimonials  -->
 
-  <section class="ubo-block" style="background-image: url(images/quotediv.svg); background-position: top; background-size: contain;">
-  <div class="container">
+  <section class="ubo-block"
+    style="background-image: url(images/quotediv.svg); background-position: top; background-size: contain;">
+    <div class="container">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-6">
             <div class="ubo-box ubo-touch">
-              <p class="h3 mb-4">"Jane was very good with guiding me from the start, especially when my ideas were all over the place and I did not know what I wanted exactly. I sent her some sample designs to give her a feel of the vibe I wanted and within a few days she came back to me with a design which was inline with what I had in mind but could not put in words to describe. She was really efficient. We would discuss some ideas over what's app and she would have a revised design, sometimes as quick as the following morning. I am a rather indecisive person and I have to say Jane was very patient with me throughout. She never shot any ideas down even if she thought it didn't go well with the theme, but instead shared other alternatives with me. I am very pleased with her eye for detail, her efficiency and the quality of work she has done for me. I would definitely work with her again. "</p>
+              <p class="h3 mb-4">"Jane was very good with guiding me from the start, especially when my ideas were all
+                over the place and I did not know what I wanted exactly. I sent her some sample designs to give her a
+                feel of the vibe I wanted and within a few days she came back to me with a design which was inline with
+                what I had in mind but could not put in words to describe. She was really efficient. We would discuss
+                some ideas over what's app and she would have a revised design, sometimes as quick as the following
+                morning. I am a rather indecisive person and I have to say Jane was very patient with me throughout. She
+                never shot any ideas down even if she thought it didn't go well with the theme, but instead shared other
+                alternatives with me. I am very pleased with her eye for detail, her efficiency and the quality of work
+                she has done for me. I would definitely work with her again. "</p>
 
               <p>
-                <span><i class="bi bi-postcard-heart-fill"></i>  </span>
-                <span class="emphasis">Melissa Yeap</span> ,  Client
+                <span><i class="bi bi-postcard-heart-fill"></i> </span>
+                <span class="emphasis">Melissa Yeap</span> , Client
               </p>
             </div>
           </div>
 
           <div class="col-md-6 mt-4 mt-md-0">
             <div class="ubo-box ubo-touch">
-              <p class="h3 mb-4">"Jane is a gifted person with a rare combination of arts, design,programming and project management skills.
-                I’m lucky to have worked with Jane , a valuable team member during our Graduate Diploma Program. Because of her creativity mindset, she’s eager to learn and adapt best design, project management, programming techniques, and that’s how our team became the forerunner among others. I’m sure she'll be an asset to your organization."</p>
+              <p class="h3 mb-4">"Jane is a gifted person with a rare combination of arts, design,programming and
+                project management skills.
+                I’m lucky to have worked with Jane , a valuable team member during our Graduate Diploma Program. Because
+                of her creativity mindset, she’s eager to learn and adapt best design, project management, programming
+                techniques, and that’s how our team became the forerunner among others. I’m sure she'll be an asset to
+                your organization."</p>
 
               <p>
-                <span><i class="bi bi-postcard-heart-fill"></i>  </span>
-                <span class="emphasis"> Thet Naing</span> ,  Teammate
-                
+                <span><i class="bi bi-postcard-heart-fill"></i> </span>
+                <span class="emphasis"> Thet Naing</span> , Teammate
+
               </p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+  </section>
 
 
   <!-- End of Testimonials  -->

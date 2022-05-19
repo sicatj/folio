@@ -1047,6 +1047,8 @@ header+header {
     text-align: center;
 }
 
+
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
